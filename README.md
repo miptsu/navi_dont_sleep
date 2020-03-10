@@ -1,7 +1,9 @@
 # navi_dont_sleep
 Navi sleep prevention, see https://gitlab.freedesktop.org/drm/amd/issues/892#note_426367 .
 
-Need OpenCV library to be installed.
+Need OpenCV library to be installed. Also OpenCL for Navi should be turned on and OpenCV should be compiled using OpenCL support (by default it should be, check instructions on OpenCV github).
+
+AMD OpenCL driver and instructions are available on AMD site. You can check opencl info using `clinfo` command from command line.
 
 Compile: 
 
